@@ -92094,7 +92094,7 @@
         },
         M(a) {
             var s, r, q, p, o, n, m = this, l = null, k = A.Dh(B.mq, B.fd, 30), j = A.jX(20), i = t.Q
-            j = A.ac5(A.a([k, A.eR(l, new A.Bo(j, new A.tV(A.aoG(l, l, new A.ru("assets/assets/images/avatar.png", l, l)), l), l), l, l, 40, l, l, 40)], i), B.dy, B.El, B.e5)
+            j = A.ac5(A.a([k, A.eR(l, new A.Bo(j, new A.tV(A.aoG(l, l, new A.ru("assets/images/avatar.png", l, l)), l), l), l, l, 40, l, l, 40)], i), B.dy, B.El, B.e5)
             k = m.Lx()
             s = A.a([A.eR(l, A.wu("My Todos", l, l, l, A.ij(l, l, l, l, l, l, l, l, l, l, l, 30, l, l, B.aC, l, l, !0, l, l, l, l, l, l, l, l), l, l), l, l, l, new A.au(0, 50, 0, 20), l, l)], i)
             for (r = m.e, r = new A.c_(r, A.a9(r).j("c_<1>")), r = new A.ct(r, r.gp(r)), q = m.gVN(), p = m.gRZ(), o = A.l(r).c; r.q();) {
