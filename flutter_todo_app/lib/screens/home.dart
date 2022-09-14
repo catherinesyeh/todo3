@@ -249,7 +249,7 @@ class _HomeState extends State<Home> {
                 // crop to circle
                 borderRadius: BorderRadius.circular(20),
                 // load avatar image from assets folder
-                child: Image.asset('../assets/images/avatar.png'),
+                child: Image.asset('assets/images/avatar.png'),
               ),
             ),
           ]),
