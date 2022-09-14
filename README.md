@@ -14,3 +14,6 @@ Open [webpage](https://catherinesyeh.github.io/todo3/) to start exploring. The a
 
 ## resources
 I followed this [YouTube tutorial](https://www.youtube.com/watch?v=K4P5DZ9TRns&ab_channel=PradipDebnath) to build my todo app, making modifications accordingly.
+
+## other notes
+The full code (and my comments) that was used to create this flutter todo app is located in the [flutter_todo_app](flutter_todo_app) directory. The files currently located at the root were generated from running the ```flutter build web``` command.
