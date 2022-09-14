@@ -19,6 +19,8 @@ class _HomeState extends State<Home> {
   String _currentQuery = ""; // keep track of current search query
   final _todoController =
       TextEditingController(); // controller allows us to add new todo items
+  final _searchController =
+      TextEditingController(); // controller allows us to edit search input field
 
   @override
   void initState() {
@@ -151,7 +153,10 @@ class _HomeState extends State<Home> {
           id: DateTime.now().millisecondsSinceEpoch.toString(),
           todoText: todo));
     });
-    _todoController.clear(); // clear input field once new item has been added
+    _todoController
+        .clear(); // clear todo input field once new item has been added
+    _searchController.clear(); // clear search query so new item shows up
+    _runFilter("");
   }
 
   void _runFilter(String keyword) {
@@ -197,6 +202,7 @@ class _HomeState extends State<Home> {
       decoration: BoxDecoration(
           color: Colors.white, borderRadius: BorderRadius.circular(20)),
       child: TextField(
+        controller: _searchController,
         onChanged: ((value) => _runFilter(value)),
         decoration: InputDecoration(
           contentPadding: EdgeInsets.all(10),
